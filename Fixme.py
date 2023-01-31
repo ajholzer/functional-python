@@ -21,7 +21,7 @@ def evens(n):
     >>> evens(-1)
     []
     '''
-    return list(filter(lambda x: x % 2 == 0, range(0, n)))
+    return list(filter(lambda x: x % 2 == 0, range(0, n+1)))
 
 
 def threes(n):
@@ -76,7 +76,7 @@ def squares(n):
     >>> squares(10)
     [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
     '''
-    return list(map(lambda x: x*x, range(0, n)))
+    return list(map(lambda x: x*x, range(0, n+1)))
 
 
 def lengths(strings):
