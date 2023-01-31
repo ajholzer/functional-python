@@ -59,7 +59,7 @@ def small_words(text):
     ['a', 'big', 'word', 'is', 'bad']
     '''
     words = text.split()
-    return list(filter(lambda x: len(str(x)) < 5, words))
+    return list(filter(lambda x: len(x) < 5, words))
 
 
 def squares(n):
