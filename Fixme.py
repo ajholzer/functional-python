@@ -76,7 +76,7 @@ def squares(n):
     >>> squares(10)
     [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
     '''
-    return list(map(lambda x: x*x, range(0, n+1)))
+    return list(map(lambda x: x*x, range(1, n+1)))
 
 
 def lengths(strings):
