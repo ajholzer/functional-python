@@ -91,4 +91,4 @@ def lengths(strings):
     >>> lengths(['this','is','a','test'])
     [4, 2, 1, 4]
     '''
-    return(list(map(lambda x: len(str(x)), strings)))
+    return (list(map(lambda x: len(str(x)), strings)))
