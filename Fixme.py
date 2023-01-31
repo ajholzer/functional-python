@@ -78,6 +78,7 @@ def squares(n):
     '''
     return list(map(lambda x: x*x, range(0, n)))
 
+
 def lengths(strings):
     '''
     Given a list of strings, returns a list of the lengths
