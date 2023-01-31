@@ -54,7 +54,9 @@ def small_words(text):
     >>> small_words('this is a simple test case')
     ['this', 'is', 'a', 'test', 'case']
     >>> small_words('really enormous words')
+    []
     >>> small_words('')
+    []
     >>> small_words('a big word is bad')
     ['a', 'big', 'word', 'is', 'bad']
     '''
